@@ -21,6 +21,14 @@
   /* style */
   background-color: var(--white);
   border-radius: var(--border-radius-regular);
+
+  transition: all 0.3s ease;
+}
+
+.content:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transform: translate(-50%, -50%) scale(1.02);
+  transition: all 0.3s ease;
 }
 
 /* 02 img */
